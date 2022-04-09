@@ -44,8 +44,8 @@ const reduce = ( state, action ) => {
 }
 
 function Resume() {
-    const ProjectCon = useContext(ProjectContext);
-    const {projectWindow, setProjectWindow} = ProjectCon ;
+    // const ProjectCon = useContext(ProjectContext);
+    // const {projectWindow, setProjectWindow} = ProjectCon ;
     const [state, dispatch] = useReducer( reduce, initialState );
     const [togglestatus, setToggleStatus] = useState(1);
     const toggle = ( stat ) => { 
@@ -65,31 +65,31 @@ function Resume() {
                     <div className='resume-bullets'>
                 
                         <div className='bullets'>
-                            <div className= {togglestatus === 1 ? 'bullet clicked-name':'bullet bullet-name'} onClick={ () => { {toggle(1); dispatch('education')} } }>
+                            <div className= {togglestatus === 1 ? 'bullet clicked-name':'bullet bullet-name'} onClick={ () => { toggle(1); dispatch('education') } }>
                                 <SchoolOutlinedIcon />
                                 <div >
                                     Education
                                 </div>
                             </div>
-                            <div className={togglestatus === 2 ? 'bullet clicked-name':'bullet bullet-name'} onClick={ () => { {toggle(2); dispatch('experience')} } } >
+                            <div className={togglestatus === 2 ? 'bullet clicked-name':'bullet bullet-name'} onClick={ () => { toggle(2); dispatch('experience') } } >
                                 <BusinessCenterOutlinedIcon />
                                 <div  >
                                     Experience
                                 </div>
                             </div>
-                            <div className= {togglestatus === 3 ? 'bullet clicked-name':'bullet bullet-name'} onClick={ () => { {toggle(3); dispatch('skills')} } } >
+                            <div className= {togglestatus === 3 ? 'bullet clicked-name':'bullet bullet-name'} onClick={ () => { toggle(3); dispatch('skills')} } >
                                 <TerminalOutlinedIcon />
                                 <div  >
                                     Programming Skills
                                 </div>
                             </div>
-                            <div className= {togglestatus === 4 ? 'bullet clicked-name':'bullet bullet-name'} onClick={ () => { {toggle(4); dispatch('projects')} } } >
+                            <div className= {togglestatus === 4 ? 'bullet clicked-name':'bullet bullet-name'} onClick={ () => { toggle(4); dispatch('projects')} } >
                                 <AssignmentOutlinedIcon />
                                 <div >
                                     Projects
                                 </div>
                             </div>
-                            <div className= {togglestatus === 5 ? 'bullet clicked-name':'bullet bullet-name'} onClick={ () => { {toggle(5); dispatch('interests')} } } >
+                            <div className= {togglestatus === 5 ? 'bullet clicked-name':'bullet bullet-name'} onClick={ () => { toggle(5); dispatch('interests') } } >
                                 <InterestsOutlinedIcon />
                                 <div >
                                     Interests

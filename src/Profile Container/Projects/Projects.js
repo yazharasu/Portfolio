@@ -1,11 +1,11 @@
-import React, {useState, useContext} from 'react';
+import React, { useContext} from 'react';
 import './Projects.css';
 import ProjectContext from '../../Context/ProjectContext';
 
 
 function Projects( ) {
     const ProjectCon = useContext(ProjectContext);
-    const {_, setProjectWindow} = ProjectCon ;
+    const setProjectWindow = ProjectCon.setProjectWindow ;
 
   return (
     <div className='projects-main-container'>
@@ -20,8 +20,8 @@ function Projects( ) {
         <div className='project-other-details'> 
             <div className='icons'>
                 <div className='icon' onClick={ () => setProjectWindow(true) } >View more</div>
-                <a className='icon' href="" >Visit Site</a>
-                <a className='icon' href="" >View Github</a>
+                <a className='icon' href="https://ourtraveladvisor.netlify.app/">Visit Site</a>
+                <a className='icon'  href="https://github.com/yazharasu/TravelApp" >View Github</a>
             </div>
         </div>
     </div>

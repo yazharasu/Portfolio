@@ -1,8 +1,8 @@
 import React from 'react';
-import Typical from 'react-typical'
-import './Home.css'
+import Typical from 'react-typical';
+import './Home.css';
 
-function Home() {
+function Home() {   
   return (  
   <div className='home-container' id='home-container'>
       <div className='home-parent'>

@@ -1,7 +1,7 @@
 import React,{useState} from 'react';
 import {FiAlignRight, FiXCircle } from "react-icons/fi";
 import './Navbarmenu.css'
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 
 const Navbarmenu = () => {
     const [isMenu, setisMenu] = useState(false);
