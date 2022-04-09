@@ -1,0 +1,83 @@
+.projects-main-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap:wrap ;
+}
+.projects-container{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background-color: var(--blueclr);
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 0px 2px 2px 0px rgba(148, 147, 147, 0.75);
+}   
+.project-image{
+    background-size: cover ;
+    width: 290px;
+    height: 250px;
+    margin: 5px ;
+}
+.img1{
+    background-image: url('../Assets/Projects/traveladvisor.JPG');
+}
+.img2{
+    background-image: url('../Assets/Projects/traveladvisor.JPG');
+}
+.img3{
+    background-image: url('../Assets/Projects/CryptoApp.JPG');
+}
+.img4{
+    background-image: url('../Assets/Projects/Portfolio.JPG');
+}
+.img5{
+    background-image: url('../Assets/Projects/ShopSite.JPG');
+}
+
+
+.project-title{
+    color: var(--whiteclr);
+    padding: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.project-other-details {
+    position: absolute;
+    bottom: 0;
+    background: rgba(112, 111, 111, 0.5); /* Black see-through */
+    color: var(--whiteclr);
+    width: 260px;
+    height: 225px;
+    transition: .5s ease;
+    opacity:0;
+    font-size: 16px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.projects-container:hover .project-other-details {
+    opacity: 1;
+}
+.icons {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.icon{
+    padding: 5px;
+    margin: 15px auto;
+    width: 140px;
+    border-radius: 10px;
+    background-color: var(--orangeclr);
+    text-decoration: none;
+    color: var(--whiteclr);
+}
+.icon:hover{
+    transform: scale(1.05);
+}
+.icon:active{
+    transform: scale(1);
+}

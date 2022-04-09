@@ -1,0 +1,282 @@
+:root{
+    --blueclr: #003049;
+    --redclr: #D62628;
+    --orangeclr: #F77F00;
+    --yellowclr: #FCBF49;
+    --whiteclr: #EAE2B8;
+}
+.home-container {
+    display: flex;
+    background-image: url('../Assets/Home/home_bg.png');
+    align-items: center;
+    justify-content: center;
+    min-height: fit-content;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-bottom: 0px ;
+    padding-top: 0px ;
+    padding: 30px auto;
+    position: relative;
+}
+.home-parent { 
+    display: flex;
+    align-items: center;
+    color:var(--whiteclr);
+    margin: 30px 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.social-icons{
+    margin: 5px;
+}
+.social-icons i{
+    margin: 3px;
+    padding: 3px;
+    color: var(--whiteclr);
+    font-size: 20px;
+}
+.social-icons i:hover{
+    transform: scale(1.2);
+}
+.home-welcome{
+    font-size: 20px;
+    font-weight: bold;
+}
+.home-welcome .home-name{
+    color: var(--yellowclr);
+    font-size: 22px;
+}
+.home-skills {
+    color: var(--whiteclr);
+    font-size: 18px;
+    max-width: 500px;
+    margin: 0 10px auto auto;
+}
+.home-skillset-ani {
+    margin: 10px 20px;
+    font-size: 15px;
+}
+
+.home-buttons { 
+    margin: 10px auto;
+}
+.home-buttons .button { 
+    margin: 12px 24px;
+    background-color: var(--blueclr);
+    color: var(--yellowclr);
+    padding: 10px 10px;
+    border: 2px solid var(--yellowclr);
+    border-radius: 20px;
+    font-size: 15px;
+    width: 130px;
+}
+.resume-btn {
+    font-weight: bold;
+}
+.home-buttons .button:hover {
+    background-color: var(--whiteclr);
+    color: var(--redclr);
+}
+
+/* profile image */
+.profile-pic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 0 0 var(--yellowclr);
+    border-radius: 50%;
+    height: 340px;
+    width: 350px;
+    margin: 0 0 0 100px;
+}
+
+.profile-pic .profile-pic-bg {
+    height: 95%;
+    width: 95%;
+    background-image: url('../Assets/Home/profile_pic1.jpg');
+    background-size: 110%;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.profile-pic .profile-pic-bg:hover {
+    transform: scale(1.02);
+    transition: .4s ease-out;
+}
+
+@media screen and (max-width: 1110px) {
+    .profile-pic { 
+        margin: 0 0px 0 80px;
+    }
+    .home-welcome{
+        font-size: 18px;
+    }
+    .home-welcome .home-name{
+        font-size: 20px;
+    }
+    .home-skills {
+        font-size: 17px;
+    }
+    .home-skillset-ani{
+        font-size: 14px;
+    }
+    .home-buttons .button { 
+        padding: 10px 0px;
+        font-size: 14px;
+        width: 120px;
+    }
+}
+
+@media screen and (max-width: 910px) {
+    .profile-pic { 
+        margin: 0 0px 0 40px;
+        height: 330px;
+        width: 330px;
+    }
+    .home-welcome{
+        font-size: 19px;
+    }
+    .home-welcome .home-name{
+        font-size: 21px;
+    }
+    .home-skills {
+        font-size: 17px;
+        max-width: 450px;
+    }
+    .home-skillset-ani{
+        margin: 5px 10px;
+        font-size: 14px;
+    } 
+    .home-buttons .button { 
+    margin: 10px 20px;
+    padding: 10px 10px;
+    font-size: 14px;
+    width: 125px;
+    }
+}
+
+@media screen and (max-width: 810px) {
+    .profile-pic { 
+        margin: 0 0px 0 0px;
+        height: 270px;
+        width: 290px;
+
+    } 
+    .home-skills {
+        font-size: 17px;
+        max-width: 500px;
+        margin: 0 10px auto auto;
+    }
+    .profile-pic .profile-pic-bg {
+        height: 100%;
+        width: 100%;
+        background-size: 120%;
+        border-radius: 50%;
+    }
+
+}
+
+
+@media screen and (max-width: 710px) {
+    .home-parent { 
+        margin: 30px 30px;
+        padding-top: 25px;
+        padding-bottom: 50px;
+    }
+    .profile-pic { 
+        height: 250px;
+        width: 270px;
+    } 
+    .home-skills {
+        font-size: 16px;
+        max-width: 500px;
+        margin: 0 10px auto auto;
+    }
+    .profile-pic .profile-pic-bg {
+        height: 100%;
+        width: 100%;
+        background-size: 120%;
+        border-radius: 50%;
+    }
+
+}
+
+@media screen and (max-width: 520px) {
+    .profile-pic { 
+        margin: 0 ;
+        height: 200px;
+        width: 200px;
+    }
+    .home-parent {
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 0;
+        padding-top: 30px;
+        height: fit-content;
+    }
+    .home-details{
+        display: flex;
+        justify-content: space-between ;
+        flex-direction: column;
+    }
+    .home-container { 
+        min-height: fit-content;
+        background-size: cover;
+    }
+    
+    .home-welcome{
+        font-size: 16px;
+    }
+    .home-welcome .home-name{
+        font-size: 18px;
+    }
+    .home-skills {
+        font-size: 16px;
+        max-width: 300px;
+        margin: 0 10px 10px 10px;
+    }
+    .home-skillset-ani{
+        margin: 4px 6px;
+        font-size: 12px;
+    } 
+    .home-buttons .button { 
+    margin: 4px 8px;
+    padding: 10px 10px;
+    font-size: 12px;
+    width: 125px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .profile-pic { 
+        margin: 0 !important;
+        height: 190px;
+        width: 190px;
+    }
+    .home-container{
+        height: 100%;
+        min-height: fit-content;
+    }   
+    .home-parent {
+        margin: 0;
+    }          
+    .home-welcome{
+        font-size: 15px;
+    }
+    .home-welcome .home-name{
+        font-size: 15px;
+    }
+    .home-skillset-ani{
+        font-size: 10px;
+    } 
+    .home-skills span{
+        font-size: 14px;
+    } 
+    .home-buttons .button{ 
+    margin: 4px 16px;
+    padding: 8px 5px;
+    font-size: 12px;
+    width: 100px;
+    }
+}
+

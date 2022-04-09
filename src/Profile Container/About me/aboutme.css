@@ -1,0 +1,242 @@
+.about-me-container {
+    padding: 20px;
+    margin: 0;
+    position: relative;
+    margin-top: 60px
+}
+.about-me-parent {
+    display: flex;  
+    align-items: center;
+    justify-items: center;
+}
+.about-me-txt h1{
+    font-size: 24px;
+    padding: 0;
+    margin-top: 20px ;
+    margin-bottom: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    color: var(--blueclr);
+}
+.about-me-txt p{
+    font-size: 14px;
+    padding: 0 5px auto auto;
+    margin-top: 4px ;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    color: var(--redclr);
+}
+/* .about-me-txt p:after {
+    width: 150px;
+    height: 4px;
+    display: block;
+    content: "";
+    position: relative;
+    margin-top: 5px;
+    left: 50%;
+    margin-left: -75px;
+    background-color: var(--blueclr);
+} */
+
+.about-me-profile{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    width: 70%;
+    padding: 0px;
+    background-color: var(--whiteclr);
+    box-shadow: 5px 5px 20px 0px rgba(0, 0, 0, 0.29);
+    z-index: -1;
+}
+.about-me-image img {
+    display:block;
+    padding-bottom: 0px ;
+    padding-top: 0px ;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.about-me-profile .about-me{
+    max-width: 50%;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+}
+.about-me-profile .about-me p{
+    max-width: 90%;
+    padding: 10px 30px;
+    margin-bottom: 20px;
+    text-align: justify;
+    font-size: 15px;
+    color: var(--blueclr);
+}
+.about-me-profile .about-me h3{
+    padding: 10px 30px;
+    margin: 0;
+    font-size: 16px;
+    color: var(--redclr);
+    text-align: left;
+}
+.about-me-profile .about-me ul{
+    padding: 5px auto;
+    margin-left: 30px;
+    margin-right: 0;
+    margin-bottom: 20px;
+    margin-top: 0;
+    line-height: 1.5em;
+    font-size: 15px;
+    text-align: left;
+    color: var(--redclr);
+}
+.home-buttons {
+    padding: 0;
+    margin: 0px auto;
+}
+.home-buttons button{
+    margin: 12px 24px;
+    background-color: var(--blueclr);
+    color: var(--yellowclr);
+    padding: 10px 10px;
+    border: 2px solid var(--yellowclr);
+    border-radius: 20px;
+    font-size: 15px;
+    width: 130px;
+}
+.aboutme-btn:hover{
+    background-color: var(--orangeclr);
+    color: var(--blueclr);
+}
+
+@media screen and (max-width: 1110px) {
+    .about-me-profile{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 910px) {
+    .about-me-profile{
+        width: 90%;
+    }
+    .about-me-profile .about-me p{
+        margin-bottom: 10px;
+        font-size: 15px;
+    }
+    .about-me-profile .about-me h3{
+        font-size: 15px;
+    }
+    .about-me-profile .about-me ul{
+        margin-bottom: 10px;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 710px) {
+    .about-me-profile{
+        width: 80%;
+        flex-direction: column-reverse;
+    }
+    .about-me-image img {
+        width: 50%;
+        height: 50%;
+        align-content: center;
+        margin: 0 auto;
+    }
+    .about-me-profile .about-me{
+        max-width: 100%;
+    }
+    .about-me-profile .about-me p{
+        margin-bottom: 10px;
+        font-size: 13px;
+    }
+    .about-me-profile .about-me h3{
+        font-size: 13px;
+    }
+    .about-me-profile .about-me ul{
+        margin-bottom: 10px;
+        font-size: 13px;
+    }
+    .about-me-txt h1{
+        font-size: 19px;
+    }
+    .about-me-txt p{
+        font-size: 13px;  
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .about-me-profile{
+        width: 90%;
+    }
+    .about-me-image img {
+        width: 50%;
+        height: 50%;
+        align-content: center;
+        margin: 0 auto;
+    }
+    .about-me-profile .about-me{
+        width: 90%;
+    }
+    .about-me-profile .about-me p{
+        margin-bottom: 10px;
+        font-size: 13px;
+    }
+    .about-me-profile .about-me h3{
+        font-size: 13px;
+    }
+    .about-me-profile .about-me ul{
+        margin-bottom: 10px;
+        font-size: 13px;
+    }
+    .about-me-txt h1{
+        font-size: 19px;
+    }
+    .about-me-txt p{
+        font-size: 13px;  
+    }
+    .home-buttons button{
+        margin: 10px 20px;
+        padding: 5px;
+        font-size: 18px;
+        width: 110px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .about-me-profile{
+        width: 100%;
+    }
+    .about-me-profile .about-me{
+        width: 100%;
+    }
+    .about-me-profile .about-me p{
+        font-size: 12px;
+    }
+    .about-me-profile .about-me h3{
+        font-size: 12px;
+    }
+    .about-me-profile .about-me ul{
+        font-size: 12px;
+    }
+    .about-me-txt h1{
+        font-size: 18px;
+    }
+    .about-me-txt p{
+        font-size: 12px;  
+    }
+    .home-buttons button{
+        margin: 8px 16px;
+        padding: 4px;
+        font-size: 14px;
+        width: 100px;
+    }
+    .skill-list{
+    margin-left: 0;
+    padding-left: 15px;
+    }
+}
