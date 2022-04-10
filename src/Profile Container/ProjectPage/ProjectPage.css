@@ -26,7 +26,15 @@
 }
 .project-page-subcontainer {
     width: 50%;
-    margin: 20px 0px;
+    margin: 30px 0px;
+}
+.icon-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon-image svg{
+    margin-right: 5px;
 }
 .project-page-image {
     width: 45%;
@@ -44,16 +52,18 @@
     border: none;   
 }
 .project-page-details {
-    margin: 4px 20px;
+    margin: 4px 40px;
     text-align: justify;
 }
 .project-page-tech {
     color: var(--blueclr);
+    margin: 0 20px;
 }
 .project-page-tech div {
     color: var(--redclr);
     font-weight: bold;
     text-decoration: underline;
+    margin-bottom: 5px;
 }
 
 .project-page-image{

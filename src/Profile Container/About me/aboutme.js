@@ -16,7 +16,7 @@ function AboutMe() {
                 <div className='about-me-profile'>
                     <div className='about-me'>
                         <p>
-                            I'm a self learned full stack web application developer with 
+                            I'm a self learned full stack web developer with 
                             background knowledge of MERN stack.
                             I'm a STEM Post graduate professional with experience in engineering and academics.
                             
@@ -34,7 +34,7 @@ function AboutMe() {
                         </ul>
                         <div className='home-buttons'>
                             <a href='#contact-cotainer'>   
-                                <button className='button aboutme-btn'>Hire me</button>
+                                <button className='button aboutme-btn'>Recruit me</button>
                              </a>
                             <a href='yazharasu.pdf' download='yazharasu.pdf'>
                                 <button className='button resume-btn'>Get Resume</button>

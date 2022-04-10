@@ -68,22 +68,23 @@
     margin: 0px;
     padding: 0px;
 }
-.about-me-profile .about-me p{
-    max-width: 90%;
+.about-me p{
+    max-width: 80%;
     padding: 10px 30px;
-    margin-bottom: 20px;
+    margin: 10px auto;
     text-align: justify;
     font-size: 15px;
     color: var(--blueclr);
 }
-.about-me-profile .about-me h3{
+.about-me h3{
     padding: 10px 30px;
     margin: 0;
+    margin-left: 15px;
     font-size: 16px;
     color: var(--redclr);
     text-align: left;
 }
-.about-me-profile .about-me ul{
+.about-me ul{
     padding: 5px auto;
     margin-left: 30px;
     margin-right: 0;

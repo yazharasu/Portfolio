@@ -1,15 +1,19 @@
-import React, { useContext} from 'react';
+import React, {useContext} from 'react';
 import './Projects.css';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import WebIcon from '@mui/icons-material/Web';
+import DetailsIcon from '@mui/icons-material/Details';
 import ProjectContext from '../../Context/ProjectContext';
 
 
-function Projects( ) {
+function Projects() {
     const ProjectCon = useContext(ProjectContext);
-    const setProjectWindow = ProjectCon.setProjectWindow ;
+    const setProjectWindow = ProjectCon.setProjectWindow;
+    const dispatch = ProjectCon.dispatch;
 
   return (
     <div className='projects-main-container'>
-        
+    
     <div className='projects-container'>
         <div className='project-title'>  
             Pepuls - Social Media App
@@ -19,9 +23,9 @@ function Projects( ) {
         </div>
         <div className='project-other-details'> 
             <div className='icons'>
-                <div className='icon' onClick={ () => setProjectWindow(true) } >View more</div>
-                <a className='icon' href="https://ourtraveladvisor.netlify.app/">Visit Site</a>
-                <a className='icon'  href="https://github.com/yazharasu/TravelApp" >View Github</a>
+                <div className='icon' onClick={ () => { setProjectWindow(true); dispatch('projectpage1') } } ><DetailsIcon />View more</div>
+                <a className='icon' href="https://ourtraveladvisor.netlify.app/"><WebIcon />Visit site</a>
+                <a className='icon'  href="https://github.com/yazharasu/TravelApp" ><GitHubIcon />View code</a>
             </div>
         </div>
     </div>
@@ -34,9 +38,9 @@ function Projects( ) {
         </div>
         <div className='project-other-details'> 
             <div className='icons'>
-                <div className='icon'>View more</div>
-                <a className='icon' href="https://ourtraveladvisor.netlify.app/" >Visit Site</a>
-                <a className='icon' href="https://github.com/yazharasu/TravelApp" >View Github</a>
+                <div className='icon' onClick={ () =>{ setProjectWindow(true); dispatch('projectpage2') } } ><DetailsIcon />View more</div>
+                <a className='icon' href="https://ourtraveladvisor.netlify.app/" ><WebIcon />Visit site</a>
+                <a className='icon' href="https://github.com/yazharasu/TravelApp" ><GitHubIcon />View code</a>
             </div>
         </div>
     </div>
@@ -49,9 +53,9 @@ function Projects( ) {
         </div>
         <div className='project-other-details'> 
             <div className='icons'>
-                <div className='icon'>View more</div>
-                <a className='icon' href="https://cryptapp.netlify.app/" >Visit Site</a>
-                <a className='icon' href="https://github.com/yazharasu/CryptoApp" >View Github</a>
+                <div className='icon' onClick={ () =>{ setProjectWindow(true); dispatch('projectpage3')}} ><DetailsIcon />View more</div>
+                <a className='icon' href="https://cryptapp.netlify.app/" ><WebIcon />Visit site</a>
+                <a className='icon' href="https://github.com/yazharasu/CryptoApp" ><GitHubIcon />View code</a>
             </div>
         </div>
     </div>
@@ -64,9 +68,9 @@ function Projects( ) {
         </div>
         <div className='project-other-details'> 
             <div className='icons'>
-                <div className='icon'>View more</div>
-                <a className='icon' href="https://yaazhtailors.netlify.app/" >Visit Site</a>
-                <a className='icon' href="https://github.com/yazharasu/yaazh-shop" >View Github</a>
+                <div className='icon' onClick={ () => { setProjectWindow(true); dispatch('projectpage4') }} ><DetailsIcon />View more</div>
+                <a className='icon' href="https://yaazhtailors.netlify.app/" ><WebIcon />Visit site</a>
+                <a className='icon' href="https://github.com/yazharasu/yaazh-shop" ><GitHubIcon />View site</a>
             </div>
         </div>
     </div>
@@ -79,9 +83,9 @@ function Projects( ) {
         </div>
         <div className='project-other-details'> 
             <div className='icons'>
-                <div className='icon'>View more</div>
-                <a className='icon' href="https://yaazhtailors.netlify.app/" >Visit Site</a>
-                <a className='icon' href="https://github.com/yazharasu/yaazh-shop" >View Github</a>
+                <div className='icon'><DetailsIcon />View more</div>
+                <a className='icon' href="https://yaazhtailors.netlify.app/" ><WebIcon />Visit site</a>
+                <a className='icon' href="https://github.com/yazharasu/yaazh-shop" ><GitHubIcon />View code</a>
             </div>
         </div>
     </div>
@@ -90,4 +94,3 @@ function Projects( ) {
 }
 
 export default Projects;
-

@@ -3,23 +3,23 @@ import Typical from 'react-typical';
 import './Home.css';
 
 
-function Home() {   
+function Home() {    
   return (  
   <div className='home-container' id='home-container'>
       <div className='home-parent'>
             <div className='home-details'>
                 <div className='social-icons'>
                     <a href="https://www.linkedin.com/in/yazharasu-a">
-                        <i className='fa fa-linkedin-square' />
+                        <i className='fa fa-linkedin-square fa-lg' />
                     </a>
                     <a href="https://github.com/yazharasu">
-                        <i className='fa fa-github' />
+                        <i className='fa fa-github fa-lg' />
                     </a>
                     <a href="https://www.facebook.com/yazh.udt">
-                        <i className='fa fa-facebook-square' />
+                        <i className='fa fa-facebook-square fa-lg' />
                     </a>
                     <a href="https://www.instagram.com">
-                        <i className='fa fa-instagram' />
+                        <i className='fa fa-instagram fa-lg' />
                     </a>
                 </div>
                 <div className='home-welcome'>

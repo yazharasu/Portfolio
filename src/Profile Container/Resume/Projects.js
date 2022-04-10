@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Projects() {
+function Projects( { toggleProject, dispatch1 } ) {
   return (
     <div className='education resume-main-content'>
 

@@ -1,4 +1,4 @@
-import React, { useReducer, useState } from 'react';
+import React, { useContext, useReducer, useState } from 'react';
 import './Resume.css'
 import SchoolOutlinedIcon from '@mui/icons-material/SchoolOutlined';
 import BusinessCenterOutlinedIcon from '@mui/icons-material/BusinessCenterOutlined';
@@ -12,40 +12,38 @@ import Projects from '../Projects/Projects';
 import Interests from './Interests';
 
 
-const initialState = { 
-    jsx: <Projects/>
-}
-
-const reduce = ( state, action ) => {
-    switch(action) {
-        case 'education':
-            return {
-                jsx: <Education/>    
-            }
-        case 'experience':
-            return{
-                jsx: <Experience />
-            }
-        case 'skills':
-            return {
-                jsx: <Skills /> 
-            }
-        case 'projects':
-            return {
-                jsx: <Projects /> 
-            }
-        case 'interests':
-            return {
-                jsx: <Interests />
-            }
-        default:
-            return state;
+function Resume( { dispatch1 } ) {
+    
+    const initialState = { 
+        jsx: <Projects/>
     }
-}
-
-function Resume() {
-    // const ProjectCon = useContext(ProjectContext);
-    // const {projectWindow, setProjectWindow} = ProjectCon ;
+    
+    const reduce = ( state, action ) => {
+        switch(action) {
+            case 'education':
+                return {
+                    jsx: <Education />    
+                }
+            case 'experience':
+                return{
+                    jsx: <Experience />
+                }
+            case 'skills':
+                return {
+                    jsx: <Skills /> 
+                }
+            case 'projects':
+                return {
+                    jsx: <Projects dispatch1={dispatch1} /> 
+                }
+            case 'interests':
+                return {
+                    jsx: <Interests />
+                }
+            default:
+                return state;
+        }
+    }
     const [state, dispatch] = useReducer( reduce, initialState );
     const [togglestatus, setToggleStatus] = useState(4);
     const toggle = ( stat ) => { 
