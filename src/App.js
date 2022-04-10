@@ -17,7 +17,7 @@ function App() {
   const [ projectWindow, setProjectWindow ] = useState(false)
 
   const initialState = { 
-    jsx: <ProjectPage/>
+    jsx: <div></div>
   }
   
   const reduce = ( state, action ) => {
@@ -46,7 +46,6 @@ function App() {
   const [state, dispatch] = useReducer( reduce, initialState );
 
   return (
-
     <div className="App">
         <ProjectContext.Provider value={ {projectWindow, setProjectWindow, dispatch} } >
         {state.jsx}
