@@ -17,8 +17,8 @@ function ProjectPage( ) {
             <div className='project-image-container'>
                 <div className='project-page-image img1'> </div>
                 <div className='icons-image'>
-                    <a className='icon-image' >Visit Site</a>
-                    <a className='icon-image' >View Github</a>
+                    <a className='icon-image' href="https://ourtraveladvisor.netlify.app/" >Visit Site</a>
+                    <a className='icon-image' href="https://github.com/yazharasu/TravelApp" >View Github</a>
                 </div>
             </div>
 
