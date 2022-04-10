@@ -25,7 +25,13 @@ const Navbarmenu = () => {
         <div className="navbar-container">
                 <div className='navbar-details'>
                     <div className='site-title'>
-                        YazH
+                    <Link
+                        activeClass="active"
+                        to="home-container"
+                        spy={true}
+                        offset={-70}
+                        className='menu-item-name'
+                    >YazH</Link>
                     </div>
                 </div>
                 

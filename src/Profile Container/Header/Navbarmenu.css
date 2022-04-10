@@ -10,7 +10,7 @@
     justify-content: center;
     z-index: 99;
 }
-.navbar-details {
+.navbar-details { 
     width: 30%;
     color: var(--whiteclr);
     margin: 0px auto;
@@ -32,6 +32,9 @@
     align-items: center;
     justify-content: space-around;
     list-style: none;
+}
+.menu-item:active{
+    transform: scale(1);
 }
 li .menu-item-name {
     color: var(--whiteclr);
@@ -135,6 +138,7 @@ ul li:hover {
         flex-direction: column;
         padding-left: 150px;
         align-items: baseline;
+
     }
     .menuq2 li{
         padding: 5px;

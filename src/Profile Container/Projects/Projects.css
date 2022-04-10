@@ -10,9 +10,9 @@
     width: 300px;
     height: 300px;
     background-color: var(--blueclr);
-    border-radius: 10px;
+    border-radius: 6px;
     margin: 5px 10px 25px 10px;
-    box-shadow: 0px 2px 2px 0px rgba(148, 147, 147, 0.75);
+    box-shadow: 3px 3px 3px 0px rgba(140, 139, 139, 0.75);
 }   
 .project-image{
     background-size: cover ;

@@ -1,4 +1,4 @@
-import React, { useContext, useReducer, useState } from 'react';
+import React, { useReducer, useState } from 'react';
 import './Resume.css'
 import SchoolOutlinedIcon from '@mui/icons-material/SchoolOutlined';
 import BusinessCenterOutlinedIcon from '@mui/icons-material/BusinessCenterOutlined';
@@ -10,7 +10,6 @@ import Experience from './Experience';
 import Skills from './Skills';
 import Projects from '../Projects/Projects';
 import Interests from './Interests';
-
 
 function Resume( { dispatch1 } ) {
     
