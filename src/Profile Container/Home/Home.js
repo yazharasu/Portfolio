@@ -2,6 +2,7 @@ import React from 'react';
 import Typical from 'react-typical';
 import './Home.css';
 
+
 function Home() {   
   return (  
   <div className='home-container' id='home-container'>

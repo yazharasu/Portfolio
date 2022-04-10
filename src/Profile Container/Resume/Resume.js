@@ -11,6 +11,7 @@ import Skills from './Skills';
 import Projects from '../Projects/Projects';
 import Interests from './Interests';
 
+
 const initialState = { 
     jsx: <Projects/>
 }
@@ -46,7 +47,7 @@ function Resume() {
     // const ProjectCon = useContext(ProjectContext);
     // const {projectWindow, setProjectWindow} = ProjectCon ;
     const [state, dispatch] = useReducer( reduce, initialState );
-    const [togglestatus, setToggleStatus] = useState(1);
+    const [togglestatus, setToggleStatus] = useState(4);
     const toggle = ( stat ) => { 
         setToggleStatus(stat)
     };

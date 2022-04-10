@@ -3,6 +3,7 @@
     width: 100%;
     justify-content: space-evenly;
     flex-wrap:wrap ;
+    padding-top: 30px;
 }
 .projects-container{
     position: relative;

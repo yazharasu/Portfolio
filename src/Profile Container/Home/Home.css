@@ -14,16 +14,17 @@
     background-repeat: no-repeat;
     background-size: 100%;
     padding-bottom: 0px ;
-    padding-top: 0px ;
+    padding-top: 160px ;
     padding: 30px auto;
     position: relative;
+
 }
 .home-parent { 
     display: flex;
     align-items: center;
     color:var(--whiteclr);
     margin: 30px 30px;
-    padding-top: 50px;
+    padding-top: 0px;
     padding-bottom: 50px;
 }
 .social-icons{
