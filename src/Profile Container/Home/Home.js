@@ -1,6 +1,7 @@
 import React from 'react';
 import Typical from 'react-typical';
 import './Home.css';
+import yazharasu from '../Assets/Resume/yazharasu.pdf';
 
 
 function Home() {    
@@ -47,7 +48,7 @@ function Home() {
                     <a href='#contact-cotainer'>   
                         <button className='button hire-btn'>Contact me</button>
                     </a>
-                    <a href='../Assets/Resume/yazharasu.pdf' download='yazharasu.pdf'>
+                    <a href={yazharasu} download='yazharasu.pdf'>
                         <button className='button resume-btn'>Get Resume</button>
                     </a>
                 </div>
