@@ -1,6 +1,8 @@
 import React from 'react';
 import './aboutme.css'
 import yazh from '../Assets/AboutMe/yazh.jpg';
+import yazharasu from '../Assets/Resume/yazharasu.pdf';
+
 
 function AboutMe() {
  
@@ -37,7 +39,7 @@ function AboutMe() {
                             <a href='#contact-cotainer'>   
                                 <button className='button aboutme-btn'>Recruit me</button>
                              </a>
-                            <a href='../Assets/Resume/yazharasu.pdf' download='yazharasu.pdf'>
+                            <a href={yazharasu} download='yazharasu.pdf'>
                                 <button className='button resume-btn'>Get Resume</button>
                             </a>
                         </div>
