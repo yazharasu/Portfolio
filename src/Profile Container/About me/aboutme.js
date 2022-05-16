@@ -28,9 +28,10 @@ function AboutMe() {
                             <li>Full Stack Web Developement</li>
                             <li>Resposnsive Web Design</li>
                             <li>Interactive Front End Development</li>
-                            <li>React Developement</li>
+                            <li>React Application Development</li>
                             <li>Node.js & Express Backend Developement</li>
-                            <li>Managing Databases</li>
+                            <li>Google OAuth and JWT</li>
+                            <li>Managing Databases(mongoDB)</li>
                         </ul>
                         <div className='home-buttons'>
                             <a href='#contact-cotainer'>   
