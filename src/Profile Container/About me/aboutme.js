@@ -36,7 +36,7 @@ function AboutMe() {
                             <a href='#contact-cotainer'>   
                                 <button className='button aboutme-btn'>Recruit me</button>
                              </a>
-                            <a href='yazharasu.pdf' download='yazharasu.pdf'>
+                            <a href='../Assets/Resume/yazharasu.pdf' download='yazharasu.pdf'>
                                 <button className='button resume-btn'>Get Resume</button>
                             </a>
                         </div>
