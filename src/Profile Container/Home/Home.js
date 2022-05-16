@@ -40,14 +40,14 @@ function Home() {
                 </div>
                 <div className='home-skills'>
                     <span> I'm a Full Stack(MERN) Web Developer. 
-                    I have diverse set of skill sets ranging from HTML, CSS, JavaScript, React, Node.js, Express & mongoDB. 
+                    I have diverse set of skill sets ranging from HTML, CSS, Bootstrap, JavaScript, React, Redux, Node.js, Express & mongoDB. 
                     </span>
                 </div>
                 <div className='home-buttons'>
                     <a href='#contact-cotainer'>   
                         <button className='button hire-btn'>Contact me</button>
                     </a>
-                    <a href='yazharasu.pdf' download='yazharasu.pdf'>
+                    <a href='../Assets/Resume/yazharasu.pdf' download='yazharasu.pdf'>
                         <button className='button resume-btn'>Get Resume</button>
                     </a>
                 </div>
