@@ -13,6 +13,22 @@ function Projects() {
 
   return (
     <div className='projects-main-container'>
+        
+    <div className='projects-container'>
+        <div className='project-title'>  
+            My Blog
+        </div> 
+        <div className='project-image img1'> 
+
+        </div>
+        <div className='project-other-details'> 
+            <div className='icons'>
+                <div className='icon' onClick={ () => { setProjectWindow(true); dispatch('projectpage5') } } ><DetailsIcon />View more</div>
+                <a className='icon' href="https://yazharasublog.netlify.app/"><WebIcon />Visit site</a>
+                <a className='icon'  href="https://github.com/yazharasu/myblog" ><GitHubIcon />View code</a>
+            </div>
+        </div>
+    </div>
     
     <div className='projects-container'>
         <div className='project-title'>  
