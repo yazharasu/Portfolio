@@ -40,7 +40,7 @@ function Home() {
                 </div>
                 <div className='home-skills'>
                     <span>I'm a Full Stack Web Developer(front end heavy). 
-                    I have diverse set of skill sets ranging from HTML, CSS, Bootstrap, JavaScript, React, Redux, Angular, Node.js & mongoDB. 
+                    I have diverse set of skill sets ranging from HTML, CSS, TailwindCSS, Bootstrap, JavaScript, React, Redux, Angular, Node.js & mongoDB. 
                     </span>
                 </div>
                 <div className='home-buttons'>
