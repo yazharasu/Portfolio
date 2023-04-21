@@ -18,7 +18,7 @@ function Projects() {
         <div className='project-title'>  
             My Blog
         </div> 
-        <div className='project-image img1'> 
+        <div className='project-image img5'> 
 
         </div>
         <div className='project-other-details'> 
