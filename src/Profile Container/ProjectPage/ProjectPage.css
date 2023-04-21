@@ -87,6 +87,9 @@
 .img5{
     background-image: url('../Assets/Projects/ShopSite.JPG');
 }
+.img6{
+    background-image: url('../Assets/Projects/blog.jpg');
+}
 .icons-image {
     margin-top: 10px;
     display: flex;
