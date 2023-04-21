@@ -58,6 +58,14 @@ const Navbarmenu = () => {
                             offset={-50}
                             className='menu-item-name'
                         >About Me</Link> </li>
+                            
+                        <li className="menu-item" > <a
+                            activeClass="active"
+                            href="https://yazharasublog.netlify.app/"
+                            spy={true}
+                            offset={-50}
+                            className='menu-item-name'
+                        >My Blog</a> </li>
 
                         <li className="menu-item" > <Link
                             activeClass="active"
