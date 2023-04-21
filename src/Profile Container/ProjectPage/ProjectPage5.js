@@ -17,7 +17,7 @@ function ProjectPage( ) {
 
             <CloseIcon className='project-page-close' onClick={ () => setProjectWindow(false) } />
             <div className='project-image-container'>
-                <div className='project-page-image img1'> </div>
+                <div className='project-page-image img5'> </div>
                 <div className='icons-image'>
                     <a className='icon-image' href="https://yazharasublog.netlify.app/" ><WebIcon />Visit site</a>
                     <a className='icon-image' href="https://github.com/yazharasu/myblog" ><GitHubIcon />View code</a>
