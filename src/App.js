@@ -11,7 +11,7 @@ import ProjectPage from './Profile Container/ProjectPage/ProjectPage';
 import ProjectPage2 from './Profile Container/ProjectPage/ProjectPage_2';
 import ProjectPage3 from './Profile Container/ProjectPage/ProjectPage_3';
 import ProjectPage4 from './Profile Container/ProjectPage/ProjectPage_4';
-import ProjectPage5 from './Profile Container/ProjectPage/ProjectPage_5';
+import ProjectPage5 from './Profile Container/ProjectPage/ProjectPage5';
 
 
 function App() {
