@@ -6,8 +6,19 @@ function Experience() {
         <div className='resume-heading'>
             <div className='main-heading'>
                 <div className='bullet'></div>
+                <span className='institution main-heading-content'>Iamneo.ai Edutech Pvt ltd, Coimbatore</span>
+                <div className='year'>2019-2022</div>
+            </div>
+            <div className='sub-heading'>
+                <span className='degree sub-heading-content'>Software Engineer</span> 
+                <div className='sub-heading-details'> </div>
+            </div>
+        </div>
+        <div className='resume-heading'>
+            <div className='main-heading'>
+                <div className='bullet'></div>
                 <span className='institution main-heading-content'>Dr.Mahalingam College of Engg. and Technology</span>
-                <div className='year'>2019-present</div>
+                <div className='year'>2019-2022</div>
             </div>
             <div className='sub-heading'>
                 <span className='degree sub-heading-content'>Assistant Professor</span> 
