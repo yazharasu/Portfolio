@@ -38,6 +38,10 @@ function App() {
         return {
           jsx: <ProjectPage4 /> 
         }
+      case 'projectpage5':
+        return {
+          jsx: <ProjectPage5 /> 
+        }
       default:
         return state;
     }
