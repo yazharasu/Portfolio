@@ -31,17 +31,16 @@ function Home() {
                         <Typical
                             loop={Infinity}
                             steps={ [ 
-                                "Full Stack Developer", 1000,
+                                "Front End Developer", 1000,
                                 "React Developer", 1000,
-                                "MERN Stack Developer", 1000,
-                                "Back End Developer", 1000
+                                "Angular Developer", 1000
                             ]} 
                         />
                     </h1>
                 </div>
                 <div className='home-skills'>
-                    <span> I'm a Full Stack(MERN) Web Developer. 
-                    I have diverse set of skill sets ranging from HTML, CSS, Bootstrap, JavaScript, React, Redux, Node.js, Express & mongoDB. 
+                    <span>I'm a Full Stack Web Developer(front end heavy). 
+                    I have diverse set of skill sets ranging from HTML, CSS, Bootstrap, JavaScript, React, Redux, Angular, Node.js & mongoDB. 
                     </span>
                 </div>
                 <div className='home-buttons'>
