@@ -18,8 +18,7 @@ function AboutMe() {
                 <div className='about-me-profile'>
                     <div className='about-me'>
                         <p>
-                            I'm a self learned full stack web developer with 
-                            background knowledge of MERN stack.
+                            I'm working as a Software Developer at Iamneo.ai Edutech Pvt. Ltd.
                             I'm a STEM Post graduate professional with experience in engineering and academics.
                             
                             Highly motivated professional looking for opportunities in Organisation which offers 
@@ -27,13 +26,11 @@ function AboutMe() {
                         </p>
                         <h3>Profile Highlights...</h3>
                         <ul className='skill-list'>
-                            <li>Full Stack Web Developement</li>
+                           <li>Front End Developement</li>
                             <li>Resposnsive Web Design</li>
-                            <li>Interactive Front End Development</li>
-                            <li>React Application Development</li>
+                            <li>React and Angular Developement</li>
                             <li>Node.js & Express Backend Developement</li>
-                            <li>Google OAuth and JWT</li>
-                            <li>Managing Databases(mongoDB)</li>
+                            <li>Experience in leading front-end development team & managing software projects</li>
                         </ul>
                         <div className='home-buttons'>
                             <a href='#contact-cotainer'>   
