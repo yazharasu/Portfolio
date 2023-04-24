@@ -28,14 +28,6 @@ function AboutMe() {
 
                         <p>Whether I'm working on a new project or collaborating with a team, I bring a positive attitude, a thirst for learning, and a commitment to delivering high-quality work. I'm also familiar with tools like Angular, Next.js, node.js, and mongoDB.
                         </p>
-//                         <h3>Profile Highlights...</h3>
-//                         <ul className='skill-list'>
-//                            <li>Front End Developement</li>
-//                             <li>Resposnsive Web Design</li>
-//                             <li>React and Angular Developement</li>
-//                             <li>Node.js & Express Backend Developement</li>
-//                             <li>Experience in leading front-end development team & managing software projects</li>
-//                         </ul>
                         <div className='home-buttons'>
                             <a href='#contact-cotainer'>   
                                 <button className='button aboutme-btn'>Recruit me</button>
