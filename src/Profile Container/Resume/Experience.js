@@ -7,7 +7,7 @@ function Experience() {
             <div className='main-heading'>
                 <div className='bullet'></div>
                 <span className='institution main-heading-content'>Iamneo.ai Edutech Pvt ltd, Coimbatore</span>
-                <div className='year'>2019-2022</div>
+                <div className='year'>2022-Present</div>
             </div>
             <div className='sub-heading'>
                 <span className='degree sub-heading-content'>Software Engineer</span> 
