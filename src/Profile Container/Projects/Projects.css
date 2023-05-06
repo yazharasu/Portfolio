@@ -47,6 +47,9 @@
 .img6{
     background-image: url('../Assets/Projects/blog.jpg');
 }
+.img7{
+    background-image: url('../Assets/Projects/cart.jpg');
+}
 
 .project-title{
     color: var(--whiteclr);
