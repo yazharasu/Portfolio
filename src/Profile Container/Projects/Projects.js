@@ -99,9 +99,9 @@ function Projects() {
         </div>
         <div className='project-other-details'> 
             <div className='icons'>
-                <div className='icon' onClick={ () => { setProjectWindow(true); dispatch('projectpage4') }} ><DetailsIcon />View more</div>
+//                 <div className='icon' onClick={ () => { setProjectWindow(true); dispatch('projectpage4') }} ><DetailsIcon />View more</div>
                 <a className='icon' href="https://yaazhtailors.netlify.app/" ><WebIcon />Visit site</a>
-                <a className='icon' href="https://github.com/yazharasu/yaazh-shop" ><GitHubIcon />View site</a>
+//                 <a className='icon' href="https://github.com/yazharasu/yaazh-shop" ><GitHubIcon />View site</a>
             </div>
         </div>
     </div>
