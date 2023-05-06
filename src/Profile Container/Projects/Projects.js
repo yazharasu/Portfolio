@@ -14,7 +14,22 @@ function Projects() {
   return (
     <div className='projects-main-container'>
         
-    <div className='projects-container'>
+        <div className='projects-container'>
+          <div className='projects-container'>
+            <div className='project-title'> 
+                MyKart Ecommerce App
+            </div> 
+            <div className='project-image img6'> 
+
+            </div>
+            <div className='project-other-details'> 
+                <div className='icons'>
+                    <div className='icon'><DetailsIcon />View more</div>
+                    <a className='icon' href="https://myonlinekart.netlify.app/" ><WebIcon />Visit site</a>
+                    <a className='icon' href="https://github.com/yazharasu/ecommerce" ><GitHubIcon />View code</a>
+                </div>
+            </div>
+        </div>
         <div className='project-title'>  
             My Blog
         </div> 
