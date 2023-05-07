@@ -105,21 +105,6 @@ function Projects() {
             </div>
         </div>
     </div>
-//     <div className='projects-container'>
-//         <div className='project-title'> 
-//             Tailoring Shop Website
-//         </div> 
-//         <div className='project-image img5'> 
-
-//         </div>
-//         <div className='project-other-details'> 
-//             <div className='icons'>
-//                 <div className='icon'><DetailsIcon />View more</div>
-//                 <a className='icon' href="https://yaazhtailors.netlify.app/" ><WebIcon />Visit site</a>
-//                 <a className='icon' href="https://github.com/yazharasu/yaazh-shop" ><GitHubIcon />View code</a>
-//             </div>
-//         </div>
-//     </div>
     </div>
   )
 }
