@@ -44,7 +44,7 @@ function App() {
         return {
           jsx: <ProjectPage5 /> 
         }
-      case 'projectpage5':
+      case 'projectpage6':
         return {
           jsx: <ProjectPage6 /> 
         } 
