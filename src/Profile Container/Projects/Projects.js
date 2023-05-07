@@ -15,7 +15,6 @@ function Projects() {
     <div className='projects-main-container'>
         
         <div className='projects-container'>
-          <div className='projects-container'>
             <div className='project-title'> 
                 MyKart Ecommerce App
             </div> 
@@ -30,6 +29,8 @@ function Projects() {
                 </div>
             </div>
         </div>
+        
+    <div className='projects-container'>
         <div className='project-title'>  
             My Blog
         </div> 
